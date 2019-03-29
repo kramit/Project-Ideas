@@ -2,34 +2,41 @@
 <title> Ball </title>
 <link rel="stylesheet" type="text/css" href="ball.css">
 
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Permanent+Marker" rel="stylesheet">
+</head>
+
 <body>
+    <div class="content">
+        <h1> This is ball </h1>
+        <div class="wtf_is_ball">
+            <p> The plan is to have the ball move on click
+                and do the other things. Not because they are easy
+                but beauce they are hard.
+                So far we have have the following.
+            </p>
+            <ol>
+                <li>A CSS ball based on a DIV </li>
+                <li>A color on the ball</li>
+                <li>A drop shadow on the ball</li>
+                <li>A position on the ball set by margins</li>
+                <li>Shadows</li>
+                <li> JS linked and onclick of ball is beeping</li>
+                <li> r rand in max 500 for the 4 margins on click</li>
+            </ol>
+        <p id="ballstate" class="ballstate"> The ball is at the start</p>
+        </div>
 
-    <h1> This is ball </h1>
-    <div class="wtf_is_ball">
-        <p> The plan is to have the ball move on click
-            and do the other things. Not because they are easy
-            but beauce they are hard.
-            So far we have have the following.
-        </p>
-        <ol>
-            <li>A CSS ball based on a DIV </li>
-            <li>A color on the ball</li>
-            <li>A drop shadow on the ball</li>
-            <li>A position on the ball set by margins</li>
-            <li>Shadows</li>
-            <li> JS linked and onclick of ball is beeping</li>
-            <li> r rand in max 500 for the 4 margins on click</li>
-        </ol>
+        <div class="ballbox">
+                <div id="leftbox" class="ballbox"></div>
+                <div id="rightbox" class="ballbox"></div>
+        <div class="ball"></div>
+
+        </div>
+
+        <script src="ball.js" charset="utf-8"></script>
+
     </div>
-
-    <div class="ballbox"> 
-
-    <div class="ball"></div>
-
-</div> 
-
-<script src="ball.js" charset="utf-8"></script>
-
 </body>
 
 </html>

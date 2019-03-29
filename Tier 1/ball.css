@@ -1,7 +1,13 @@
+
 h1 {
     position: relative;
     text-align: center;
-    color:  red;
+    color: slateblue;
+    text-decoration: underline;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    text-shadow: 1px 1px grey;
+    font-weight: 100
 }
 .wtf_is_ball {
     width: 400px
@@ -14,14 +20,30 @@ p {
     text-align: left;
 }
 
+.content{
+    max-width: 500px;
+    margin: auto;
+}
 .ballbox{
     position: absolute;
     background-color:  black;
     margin: auto;
     width: 500px;
     height: 500px;
+}
+
+#leftbox {
+    width: 250;
+    background: firebrick;
+    z-index: 1 ;
+}
+
+.ballstate{
+    position: relative;
+    margin-left: 25%
 
 }
+
 .ball {
     position: relative;
     margin-left: 300px;
@@ -31,11 +53,12 @@ p {
     height: 50px;
     border-radius: 50%;
     box-shadow: 2px 2px 20px 5px grey;
+    z-index: 2;
 }
 
 .ball:hover{
     box-shadow: 2px 2px 20px 5px pink; 
     background-color: aqua;
-    transition-delay: 100ms;
-    transition-duration: 700ms;
+    transition-delay: 10ms;
+    transition-duration: 300ms;
 }

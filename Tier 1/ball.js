@@ -15,10 +15,10 @@ ball.addEventListener('click', function(){
     sound.play();
 
     //make 4  random numers in a var
-    const rand0 = getRandomInt(300)
-    const rand1 = getRandomInt(300)
-    const rand2 = getRandomInt(300)
-    const rand3 = getRandomInt(300)
+    const rand0 = getRandomInt(450)
+    const rand1 = getRandomInt(450)
+    const rand2 = getRandomInt(450)
+    const rand3 = getRandomInt(450)
     console.log("random number is", rand0,rand1,rand2,rand3)
 
     //set margin 
@@ -27,6 +27,17 @@ ball.addEventListener('click', function(){
     ball.style.marginRight = rand1 + "px" ;
     ball.style.marginTop = rand2 + "px" ;
     ball.style.marginBottom = rand3 + "px" ;
-    
+
+    //function to change the text
+    function changeText(text){
+    document.getElementById("ballstate").innerHTML = text
+    }
+
+    if ( rand0 < 225 ) {
+        changeText("Ball is in the left");
+    }
+    else if (rand0 > 225) {
+        changeText("Ball is in the right");
+    }
 
 })
