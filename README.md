@@ -46,3 +46,8 @@ https://thisisball.azurewebsites.net/
 
 1. put in some kind of regex validation for email
 1. show error on invalid entry 
+
+
+## SQL
+
+1. Learn SQL.......
