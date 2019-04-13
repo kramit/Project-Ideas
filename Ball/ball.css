@@ -6,6 +6,11 @@ body  {
     background-repeat: no-repeat;
     background-image: linear-gradient( rgba(255,200,0,1), rgba(0,0,255,1));
 }
+nav {
+position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
 .navlist {
     position: fixed;
     top: 0;
