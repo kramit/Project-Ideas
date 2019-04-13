@@ -1,5 +1,5 @@
 
-ul {
+.navlist {
     position: fixed;
     top: 0;
     width: 100%;
@@ -9,11 +9,11 @@ ul {
     overflow: hidden;
     background-color: lightblue;
 }
-  li {
+  .navlist li {
     float: left;
   }
   
-  li a {
+  .navlist a {
     display: block;
     color: black;
     text-align: center;
@@ -24,6 +24,6 @@ ul {
     font-size: 150%;
   }
   
-  li a:hover {
+  a:hover {
     background-color: lightgreen;
   }
