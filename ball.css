@@ -1,46 +1,13 @@
-html {
+#ballHTML {
     min-height: 150%
 }
 
-body  {
+#ballBody  {
     background-repeat: no-repeat;
     background-image: linear-gradient( rgba(255,200,0,1), rgba(0,0,255,1));
 }
-nav {
-position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-}
-.navlist {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: lightblue;
-}
-  .navlist li {
-    float: left;
-  }
-  
-  .navlist a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: monospace;
-    font-size: 150%;
-  }
-  
-  a:hover {
-    background-color: lightgreen;
-  }
 
-h1 {
+#ballBody h1 {
     position: relative;
     text-align: center;
     color: slateblue;
@@ -51,26 +18,26 @@ h1 {
     font-weight: 100
 }
 
-h2 {
+#ballBody h2 {
     text-align: center;
     text-decoration: underline;
 }
-.wtf_is_ball {
+#ballBody .wtf_is_ball {
     width: 400px;
     text-justify: auto;
 }
 
-p {
+#ballBody p {
     font: 20px sans-serif; 
     font-weight: bold;
     text-align: left;
 }
 
-.content{
+#ballBody .content{
     max-width: 500px;
     margin: auto;
 }
-.ballbox{
+#ballBody .ballbox{
     border-radius: 25px ;
     position: absolute;
     background-color:  black;
@@ -79,7 +46,7 @@ p {
     height: 500px;
 }
 
-#leftbox {
+#ballBody #leftbox {
     position: absolute;
     border-radius: 25px 0px 0px 25px;
     width: 250;
@@ -87,7 +54,7 @@ p {
     z-index: 1 ;
 }
 
-#middlebox {
+#ballBody #middlebox {
     position: absolute;
     height: 100px;
     width: 100px;
@@ -98,7 +65,7 @@ p {
     z-index: 2 ;
 }
 
-.ballstate{
+#ballBody .ballstate{
     width: 500px;
     font-size: 30px;
     position: relative;
@@ -107,7 +74,7 @@ p {
 
 }
 
-.ball {
+#ballBody .ball {
     position: relative;
     margin-left: 300px;
     margin-top: 300px;
@@ -119,7 +86,7 @@ p {
     z-index: 3;
 }
 
-.ball:hover{
+#ballBody .ball:hover{
     box-shadow: 2px 2px 20px 5px pink; 
     background-color: aqua;
     transition-delay: 10ms;

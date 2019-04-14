@@ -1,0 +1,150 @@
+/*global settings */
+
+body {
+  margin: 0;
+  padding-top:65px;
+}
+/* begin the style of the nav bar*/
+nav{
+
+position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 999;
+}
+
+.navlist {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightblue;
+}
+  .navlist li {
+    float: left;
+  }
+  
+  .navlist a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 150%;
+  }
+  
+  a:hover {
+    background-color: lightgreen;
+  }
+
+  /* end the style of the nav bar*/
+
+
+
+
+
+
+  /*add style for ball*/
+
+  #ballHTML {
+    min-height: 150%
+}
+
+#ballBody  {
+    background-repeat: no-repeat;
+    background-image: linear-gradient( rgba(255,200,0,1), rgba(0,0,255,1));
+
+}
+
+#ballBody h1 {
+    position: relative;
+    text-align: center;
+    color: slateblue;
+    text-decoration: underline;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    text-shadow: 1px 1px grey;
+    font-weight: 100
+}
+
+#ballBody h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+#ballBody .wtf_is_ball {
+    width: 400px;
+    text-justify: auto;
+}
+
+#ballBody p {
+    font: 20px sans-serif; 
+    font-weight: bold;
+    text-align: left;
+}
+
+#ballBody .content{
+    max-width: 500px;
+    margin: auto;
+}
+#ballBody .ballbox{
+    border-radius: 25px ;
+    position: absolute;
+    background-color:  black;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+}
+
+#ballBody #leftbox {
+    position: absolute;
+    border-radius: 25px 0px 0px 25px;
+    width: 250;
+    background: firebrick;
+    z-index: 1 ;
+}
+
+#ballBody #middlebox {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin-left: 200;
+    margin-top: 200;
+    border-radius: 25px 25px 25px 25px;
+    background: green;
+    z-index: 2 ;
+}
+
+#ballBody .ballstate{
+    width: 500px;
+    font-size: 30px;
+    position: relative;
+    margin-left: 20%;
+    transition: 500ms
+
+}
+
+#ballBody .ball {
+    position: relative;
+    margin-left: 300px;
+    margin-top: 300px;
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 20px 5px grey;
+    z-index: 3;
+}
+
+#ballBody .ball:hover{
+    box-shadow: 2px 2px 20px 5px pink; 
+    background-color: aqua;
+    transition-delay: 10ms;
+    transition-duration: 300ms;
+}
+
+/* end style for ball*/
