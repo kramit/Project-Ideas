@@ -21,7 +21,7 @@ position: fixed; /* Set the navbar to fixed position */
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: pink;
+    background-color: rgb(193, 192, 255);
 }
   .navlist li {
     float: left;
