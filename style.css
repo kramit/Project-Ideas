@@ -39,7 +39,7 @@ position: fixed; /* Set the navbar to fixed position */
   }
   
   a:hover {
-    background-color: red ;
+    background-color: rgb(4, 0, 255) ;
   }
 
   /* end the style of the nav bar*/
