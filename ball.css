@@ -88,7 +88,7 @@
 
 #ballBody .ball:hover{
     box-shadow: 2px 2px 20px 5px pink; 
-    background-color: aqua;
+    background-color: rgb(179, 255, 0);
     transition-delay: 10ms;
     transition-duration: 300ms;
 }
